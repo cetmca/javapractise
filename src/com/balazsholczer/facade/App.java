@@ -18,6 +18,7 @@ public class App {
 		manager.bubbleSort();
 		manager.mergeSort();
 		manager.heapSort();
+		manager.quickSort();
 		
 	}
 }

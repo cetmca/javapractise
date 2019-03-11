@@ -5,11 +5,13 @@ public class SortingManager {
 	private Algorithm bubbleSort;
 	private Algorithm mergeSort;
 	private Algorithm heapSort;
+	private Algorithm quickSort;
 	
 	public SortingManager(){
 		this.bubbleSort = new BubbleSort();
 		this.mergeSort = new MergeSort();
 		this.heapSort = new HeapSort();
+		this.quickSort= new QuickSort();
 	}
 	
 	public void mergeSort(){
@@ -22,5 +24,8 @@ public class SortingManager {
 	
 	public void heapSort(){
 		this.heapSort.sort();
+	}
+	public void quickSort(){
+		this.quickSort.sort();
 	}
 }
