@@ -28,6 +28,12 @@ public class Helloworld {
      */
     public static void main(String[] args) {
         System.out.println("Inside main(String[] args) method ....");
+        
+        Manager manager = new Manager();
+        manager.setStrategy(new Division());
+        manager.operation(4, 2);
+        
+        
         int[] obj = new int[] { 1, 2, 3 };
 		Integer[] newObj = toObject(obj);
 		main(newObj);
