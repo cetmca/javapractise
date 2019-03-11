@@ -8,6 +8,7 @@ public class AlgorithmFactory {
 	public static Algorithm createAlgorithm(int type) {
 	
 		
+		
 		switch (type) {
 		case SHORTEST_PATH:
 			return new ShortestPath();
