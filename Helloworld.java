@@ -20,7 +20,6 @@ class Temp
 } 
 
 public class Helloworld {
-
     /**
      * Standard main method, JVM will only call this method
      * even if you provided multiple overloaded version.
