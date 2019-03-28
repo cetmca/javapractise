@@ -38,7 +38,7 @@ class LamdaTest
 	System.out.println(isEven.computeTest(5));
 
 	// Output: true
-System.out.println(isNegative.computeTest(-5));
+    System.out.println(isNegative.computeTest(-5));
 
 
 
