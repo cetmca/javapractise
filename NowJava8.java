@@ -5,7 +5,6 @@ import java.util.stream.*;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class NowJava8 {
 
     public static void main(String[] args) {
