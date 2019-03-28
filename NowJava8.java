@@ -49,6 +49,7 @@ List<String> items = new ArrayList<>();
 	});
 
     //
+    
 
 List<String> alpha = Arrays.asList("aa", "bb", "cc", "dd");
 List<String> collect = alpha.stream().map(String::toUpperCase).collect(Collectors.toList());
