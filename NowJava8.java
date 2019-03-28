@@ -31,9 +31,6 @@ listOfValues.add('c');
 listOfValues.add('d');
 listOfValues.add('e');
 
-//
-
-
 List<String> items = new ArrayList<>();
 	items.add("A");
 	items.add("B");

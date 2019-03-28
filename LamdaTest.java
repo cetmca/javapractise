@@ -3,7 +3,7 @@ interface FuncInterface
     // An abstract function 
     void abstractFun(int x,int y); 
     // void abstractFun(int x); 
-  
+  //
     // A non-abstract (or default) function 
     default void normalFun() 
     { 
