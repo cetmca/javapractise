@@ -14,6 +14,10 @@ interface FuncInterface
 interface NumericTest {
 	boolean computeTest(int n); 
 }
+
+interface StringTest {
+	public void StringReverse(String str); 
+}
   
 class LamdaTest 
 { 
@@ -32,13 +36,23 @@ class LamdaTest
         fobj.abstractFun(5,10); 
         fobj.normalFun(); 
 
+StringTest stringTest = (s) -> {
+     
+     for(int i=s.length()-1; i>=0;i--)
+     {
+         System.out.println(s.charAt(i));    
+     }
+    // System.out.println(s); 
+     };
+      
 
+stringTest.StringReverse("python java");
 
 	// Output: false
-	System.out.println(isEven.computeTest(5));
+	//System.out.println(isEven.computeTest(5));
 
 	// Output: true
-    System.out.println(isNegative.computeTest(-5));
+   // System.out.println(isNegative.computeTest(-5));
 
 
 
