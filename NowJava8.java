@@ -34,9 +34,7 @@ listOfValues.add('e');
 List<String> items = new ArrayList<>();
 	items.add("A");
 	items.add("B");
-	items.add("C");
-	items.add("D");
-	items.add("E");
+
 
 	//lambda
 	//Output : A,B,C,D,E
