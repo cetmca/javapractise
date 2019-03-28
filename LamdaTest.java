@@ -16,7 +16,7 @@ interface NumericTest {
 }
 
 interface StringTest {
-	public void StringReverse(String str); 
+	public StringBuilder StringReverse(String str); 
 }
   
 class LamdaTest 
@@ -37,16 +37,17 @@ class LamdaTest
         fobj.normalFun(); 
 
 StringTest stringTest = (s) -> {
-     
+     StringBuilder sb= new StringBuilder();
+
      for(int i=s.length()-1; i>=0;i--)
      {
-         System.out.println(s.charAt(i));    
+         sb.append(s.charAt(i));
      }
-    // System.out.println(s); 
+    return sb;
      };
       
 
-stringTest.StringReverse("python java");
+System.out.println(stringTest.StringReverse("MalayalaM in reverse"));
 
 	// Output: false
 	//System.out.println(isEven.computeTest(5));
