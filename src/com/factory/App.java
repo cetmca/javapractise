@@ -32,7 +32,7 @@ public class App {
 	
 	public static void main(String[] args) {
 		
-		Algorithm algorithm = AlgorithmFactory.createAlgorithm(AlgorithmFactory.SHORTEST_PATH);
+		Algorithm algorithm = AlgorithmFactory.createAlgorithm(AlgorithmFactory.SPANNING_TREE);
 		algorithm.solve();
 		
 	}
