@@ -38,26 +38,18 @@ class LamdaTest
 
 StringTest stringTest = (s) -> {
      StringBuilder sb= new StringBuilder();
-
      for(int i=s.length()-1; i>=0;i--)
      {
          sb.append(s.charAt(i));
      }
     return sb;
      };
-      
 
 System.out.println(stringTest.StringReverse("MalayalaM in reverse"));
-
 	// Output: false
-	//System.out.println(isEven.computeTest(5));
-
+	System.out.println(isEven.computeTest(5));
 	// Output: true
-   // System.out.println(isNegative.computeTest(-5));
-
-
-
-
+    System.out.println(isNegative.computeTest(-5));
     } 
 } 
 
